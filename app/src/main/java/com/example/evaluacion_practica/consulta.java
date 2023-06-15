@@ -12,6 +12,8 @@ import com.android.volley.toolbox.JsonObjectRequest;
 
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 public class consulta extends AppCompatActivity {
     private String txt_busqueda;
 
@@ -38,8 +40,10 @@ public class consulta extends AppCompatActivity {
                     public void onResponse(JSONObject response) {
                         System.out.println(response);
                         try {
-                            tempValue.setText(response.getString("temperatura")+ " °C");
-                            response.getString("results");
+
+                            System.out.println(response.getString("results"));
+
+
 
                         } catch (Exception e) {
                             e.printStackTrace();
