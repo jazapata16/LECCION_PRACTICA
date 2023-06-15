@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EVALUACION_PRACTICA">
         <activity
+            android:name=".grafico"
+            android:exported="false" />
+        <activity
             android:name=".consulta"
             android:exported="false" />
         <activity

@@ -19,9 +19,6 @@
             android:layout_height="wrap_content"
             android:text="Aplicaciones Moviles y Sistemas Telematicos" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="39dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -29,9 +26,7 @@
             android:layout_height="wrap_content"
             android:text="EXAMEN PRACTICO" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="32dp" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,9 +56,7 @@
 
         </LinearLayout>
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
+
 
         <EditText
             android:id="@+id/txt_busqueda"
@@ -73,15 +66,14 @@
             android:inputType="textPersonName"
             android:text="Name" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp" />
+
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:onClick="buscarheroe"/>
+            android:text="Button"     />
+            //android:onClick="buscarheroe"
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
